@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ruchika's Portfolio</title>
+</head>
+
+<body>
+    <section id="pop-up" class="pop-up">
+        <div class="background-pop-up"></div>
+
+        <div class="pop-up-content">
+            <div class="pop-up-title">
+                <h2 id="pop-up-title"></h2>
+                <p id="close-window">X</p>
+            </div>
+
+            <ul class="pop-up-technologies" id="pop-up-technologies"></ul>
+
+            <div class="content-description">
+                <img src='' alt="pop-up-img" class="pop-up-img" id="pop-up-img">
+                <div class="description-text">
+                    <p id="description-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+
+                    <div class="pop-up-btns">
+                        <a class="pop-up-btn" id='see-live' href=''>See live <img src="/Media/icon-see-live.svg" alt="see-live-icon"></a>
+                        <a class="pop-up-btn" id="see-source" href=''>See source <img src="/Media/Icon-GitHub-white.svg" alt="gitgub-icon"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <header class="header">
+        <div class="logo">
+            <h4 class="name">Ruchika Shirsath</h4>
+        </div>
+        <div class="toggle-btn menu-btn" id="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li><img src="Media/Icon-Mail.svg" alt="email-icon"></li>
+            </ul>
+        </nav>
+        <section class="menu-mobile" id="menu-mobile">
+            <img class="menu-btn" src="/Media/Icon-X.svg" alt="close-menu-button" id="x-btn">
+            <ul>
+                <li><a href="#Portfolio" class="menu-btn">Portfolio</a>
+                    <hr>
+                </li>
+                <li><a href="#About" class="menu-btn">About</a>
+                    <hr>
+                </li>
+                <li><a href="#Contact" class="menu-btn">Contact</a>
+                    <hr>
+                </li>
+            </ul>
+        </section>
+    </header>
+
+    <section class="dark-bg headline">
+        <img src="Media/image.svg" alt="headline_bg_img_phone_view" class="squares">
+        <img src="Media/IMG-headline.svg" alt="headline_bg_img_desktop_view" class="big-squares">
+        <div class="content">
+            <div class="introduction">
+                <h1>Hello there. <br>I'm Ruchika</h1>
+                <h2>I'm a Third Year undergraduate in BTech IT at VJTI , Mumbai , India</h2>
+            </div>
+            <ul class="icons">
+                <li>
+                    <a href="#" ta><img src="Media/Icon -GitHub.svg" alt="github-icon"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="Media/Icon-Linkedin.svg" alt="linkedin-icon"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="Media/Icon-M.svg" alt="M-icon"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="recent-work" id="Portfolio">
+        <div class="title">
+            <h2 class="recent-work-title">My Latest Projects</h2>
+            <hr>
+        </div>
+
+        <div class="project project-1">
+            <img src="Media/logo_re.png" alt="project-1_sample_img" class="size">
+            <div class="project-description" id="first-project">
+                <h3 class="project-title">Research Internship at IIT Bombay</h3>
+                <p>I am working under Prof Uday Khedker, CC Dept. My current project is making a Software Plagiarism Detection Tool for C++ language. I have been working on this project since February 2023 and it is still ongoing.</p>
+                <br>
+                <ul class="project-skills">
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>CGum</li>
+                    <li>Gumtree</li>
+                </ul>
+            </div>
+        </div>
+        <div class="project project-1">
+            <img src="Media/gest.png" alt="project-1_sample_img" class="size-1">
+            <div class="project-description" id="first-project">
+                <h3 class="project-title">Intelligent Navigesture</h3>
+                <p>
+                    In collaboration with the Community of Coders Inheritance program, our team has developed a project that utilizes OpenCV's computer vision algorithms for accurate interpretation of user gestures, enabling actions like clicking, scrolling, tapping, and
+                    drawing. By incorporating modern UI/UX principles with HTML, CSS, JS, and React, we've created an adaptive and immersive gesture-based browsing experience. We've iteratively improved gesture recognition models and optimized frontend
+                    performance to ensure a user-friendly, hands-free web interface.</p>
+                <br>
+                <ul class="project-skills">
+                    <li>OpenCv</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>React</li>
+                    <li>DOM</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project project-1">
+            <img src="Media/attend.png" alt="project-1_sample_img" class="size-2">
+            <div class="project-description" id="first-project">
+                <h3 class="project-title">QR-Face Attendance System</h3>
+                <p>
+                    My team spearheaded the creation of a web-based attendance system with multi-factor authentication via QR code scanning and facial detection. We utilized OpenCV for advanced face detection, combined HTML, CSS, JS, and Flask for seamless design and functionality,
+                    and integrated a secure Database Management system for efficient record storage and analysis. Our intuitive interface ensures accurate attendance tracking while upholding rigorous security standards through a two-step authentication
+                    process.
+                </p>
+                <br>
+                <ul class="project-skills">
+                    <li>OpenCv</li>
+                    <li>DBMS</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Flask</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project project-1">
+            <img src="Media/tab_use.png" alt="project-1_sample_img" class="size-3">
+            <div class="project-description" id="first-project">
+                <h3 class="project-title">The Assist Bot</h3>
+                <p>
+                    Created an interactive Python bot with Tkinter, Speech-to-Text, and Text-to-Speech for seamless user engagement. Enables voice-commanded tasks and natural language conversations via integrated STT and TTS, optimizing user interactions through a user-friendly
+                    GUI
+                </p>
+                <br>
+                <ul class="project-skills">
+                    <li>OpenCv</li>
+                    <li>DBMS</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Flask</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section class="dark-bg" id="About">
+        <div class="about-me">
+            <img src="Media/about-me-image.svg" alt="about-me_bg_img_phone_view" class="about-me-img">
+            <img src="Media/About-me-big-image.svg" alt="about-me_bg_img_desktop_view" class="about-me-big-img">
+            <div class="content">
+                <h2>About me</h2>
+                <p>I’m a Third Year undergraduate pursuing BTech in Information Technology at VJTI,Mumbai,India.I am a tech enthusiast and am interested in research related to compilers and AI and ML based projects in which I have some previous experiences</p>
+                <a href="#" class="get-my-resume">
+                    <p>Get my resume</p>
+                </a>
+            </div>
+
+            <hr>
+
+            <div class="skills">
+                <dl>
+                    <dt><img src="Media/Rectangle-orange.svg" alt="orange_diamond"> Language</dt>
+                    <dd>Python</dd>
+                    <dd>Java</dd>
+                    <dd>C</dd>
+                    <dd>C++</dd>
+                </dl>
+
+                <dl>
+                    <dt><img src="Media/Square-orange.svg" alt="orange_square">Domain Explored</dt>
+                    <dd>Machine Learning</dd>
+                    <dd>Deep Learning</dd>
+                    <dd>Web Development</dd>
+                </dl>
+
+                <dl>
+                    <dt><img src="Media/Circle.svg" alt="orange_circle"> Skills</dt>
+                    <dd>Github</dd>
+                    <dd>Linux</dd>
+                </dl>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact-form-section" id="Contact">
+
+        <h6>I'm always interested in hearing about new projects, so if you'd like to chat or collaborate please get in touch.</h6>
+
+        <form id="contact_form" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mjvzpwnz" method="post">
+            <fieldset id="fs-frm-inputs">
+                <input type="text" maxlength="30" name="name" id="full-name" placeholder="Full name" required="">
+                <input type="email" name="_replyto" id="email-address" placeholder="Email address" required="">
+                <textarea rows="5" maxlength="500" name="message" id="message" placeholder="Enter text here" required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Get in touch" class="btn-submit" id="btn-submit">
+            <div class="error-msg" id="error-msg">Invalid email format, please make sure all the letters are in lowecase
+                <p class="error-close-btn" id="error-close-btn">X</p>
+            </div>
+        </form>
+        <div class="social-media-icons">
+            <img src="Media/Icon-GitHub-dark.svg" alt="gitgub_icon">
+            <img src="Media/Icon-Linkedin-dark.svg" alt="linkedin_icon">
+            <img src="Media/Icon-M-dark.svg" alt="M_icon">
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
